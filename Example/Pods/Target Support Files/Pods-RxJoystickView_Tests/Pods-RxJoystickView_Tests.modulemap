@@ -1,0 +1,6 @@
+framework module Pods_RxJoystickView_Tests {
+  umbrella header "Pods-RxJoystickView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

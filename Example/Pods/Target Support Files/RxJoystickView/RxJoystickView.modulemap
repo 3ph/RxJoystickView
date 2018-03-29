@@ -1,0 +1,6 @@
+framework module RxJoystickView {
+  umbrella header "RxJoystickView-umbrella.h"
+
+  export *
+  module * { export * }
+}
