@@ -8,6 +8,8 @@
 
 A simple reactive joystick view widget. Tracks horizontal and vertical position of dragged thumb from center in range [-1.0, 1.0]. Both axes can be individually disabled.
 
+<img src="./screenshot.gif" alt="Screenshot" />
+
 ## Usage
 
 Simply add as custom view to storyboard or create programatically.
@@ -51,6 +53,7 @@ joystickView
         NSLog("Horizontal position: \(position)")
     }).disposed(by: disposeBag)
 
+// Vertical thumb position changed: -1 is topmost position, +1 is bottommost position.
 joystickView
     .rx
     .verticalPositionChanged
