@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		2A1041A753D63CDFF3A11221 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		2E1E8131E6B7086358CAC9CF /* RxJoystickView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RxJoystickView.podspec; path = ../RxJoystickView.podspec; sourceTree = "<group>"; };
+		2E1E8131E6B7086358CAC9CF /* RxJoystickView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RxJoystickView.podspec; path = ../RxJoystickView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		42AD978FDCD0915F39AFA54A /* Pods-RxJoystickView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxJoystickView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxJoystickView_Example/Pods-RxJoystickView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* RxJoystickView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxJoystickView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
