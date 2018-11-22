@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RxJoystickView'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'A simple reactive joystick view widget.'
 
 # This description is used to generate tags and improve search results.
@@ -26,17 +26,11 @@ Tracks horizontal and vertical position of dragged thumb from center in range [-
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '3ph' => 'instantni.med@gmail.com' }
   s.source           = { :git => 'https://github.com/3ph/RxJoystickView.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.swift_version    = '4.2'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'RxJoystickView/Classes/**/*'
 
-  # s.resource_bundles = {
-  #   'RxJoystickView' => ['RxJoystickView/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'RxCocoa', '~> 4.1.2'
+  s.dependency 'RxCocoa', '~> 4.4.0'
 end
